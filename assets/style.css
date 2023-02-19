@@ -1,0 +1,60 @@
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c0c0c0;
+} 
+#container{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px;
+    height: 100%;
+}
+#header{
+    background: linear-gradient(to right bottom, #000831, #61BDD0);
+    padding: 128px 16px;
+    
+}
+#logo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    font-size: 2rem;
+}
+p{
+    color: gray;
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 800px) {
+    #content{
+        background-color: white;
+        margin: 0 auto;
+        padding: 8px;
+        height: 100%;
+    }
+    #header{
+        background: linear-gradient(to right bottom, #000831, #61BDD0);
+        padding: 64px 16px;
+        
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}

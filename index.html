@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+
+        } 
+        h1{
+            text-align: center;
+            margin-bottom: 64px;
+            color: rgb(117, 117, 117);
+        }
+        #logo{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 48px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 300px;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+
+            background-color: rgb(250, 250, 250);
+        }
+        a{
+            color: rgb(59, 59, 59);
+            box-shadow: 0 0 3px gray;
+
+            text-align: center;
+            padding: 8px 16px;
+            width: 300px;
+
+            transition: 0.3s;
+
+            border-radius: 4px;
+            font-weight: 700;
+            text-decoration: none;
+
+        }
+        a:hover{
+            color: white;
+            background: linear-gradient(to right bottom, #000831 -20%, #61BDD0,#000831 120%);
+        }
+    </style>
+    <title>termos e politicas</title>
+</head>
+<body>
+    <div id="container" class="content">
+        <h1>Documentação do aplicativo<br/>
+            <span id="logo">Quatro Patas</span></h1>
+        <a href="./politica-quatro-patas/">Política de privacidade</a>
+        <a href="./termo-quatro-patas/">Termos de uso</a>
+    </div>
+</body>
+</html>
